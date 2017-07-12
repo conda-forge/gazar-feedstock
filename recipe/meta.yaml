@@ -1,6 +1,6 @@
 {% set name = "gazar" %}
-{% set version = "0.0.1" %}
-{% set sha256 = "1f2542b59ba47bbfe784a3bfb14bc1a67e37b5d8782a8e2dec464c5a7758bdcb" %}
+{% set version = "0.0.2" %}
+{% set sha256 = "db52950410c70bc950d1199060268499d2bd312bbbf0454adeb949edd83f2bcf" %}
 
 package:
   name: {{ name|lower }}
