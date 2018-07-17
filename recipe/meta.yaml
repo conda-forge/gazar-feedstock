@@ -1,6 +1,6 @@
 {% set name = "gazar" %}
-{% set version = "0.0.4" %}
-{% set sha256 = "69ac21dd2e3e87252bd2c5d5acdd00b2cee49af993d9436d14df4877940515d9" %}
+{% set version = "0.0.5" %}
+{% set sha256 = "58238b0f2cc5807c7f81081c57d7c95fc7ddec9469289043c00dc4b2e6706168" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
@@ -26,7 +26,6 @@ requirements:
     - affine
     - appdirs
     - gdal=2.2.*
-    - mapkit
     - pyproj
     - utm
 
